@@ -28,6 +28,7 @@ struct ContentView: View {
                     .scaledToFit()
                     .frame(width: 120, height: 200)
                 TextField("Enter Your Grade", text:  $grade)
+                    .foregroundColor(.white)
                 Text("احسب درجتي")
                    // .padding()
                     .foregroundColor(.white)
